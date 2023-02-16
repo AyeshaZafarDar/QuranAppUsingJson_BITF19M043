@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         bReader.readLine(); // skip the header
 
+        // loop to add reader
         while ((line = bReader.readLine()) != null) {
             String[] row = line.split(",");
             int number = Integer.parseInt(row[0]);
