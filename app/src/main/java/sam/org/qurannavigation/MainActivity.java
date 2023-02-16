@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        // set parent on click listner 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
